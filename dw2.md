@@ -14,6 +14,14 @@ let situação = nota > 6.0 ? "aprovado" : "reprovado"
 console.log(situação)
 ```
 
+Crie uma funçao que volte ao usuario se ele é maior de idade ou não
+
+```javascript
+let idade = 18
+let situação = idadew > 18 ? "maior de idade" : "menor de idade"
+console.log(situação)
+```
+
 ### Number
 
 E um numero inteiro ou de ponto flutuante. Em outras linguagens de programação diferentes tipos numéricos podem existir, por exemplo: Integers (Inteiros), Floats (Pontos Flutuantes), Doubles (Dobros), ou Bignums.
@@ -42,11 +50,15 @@ let ex = "Olá, Mundo!";
 console.log(ex)
 ```
 
-
-
+crie uma string e imprima ela na tela
+```javascript
+let ex = "STRING!";
+console.log(ex)
+```
 ### Undefined 
 
 Um valor primitive automaticamente atribuido para variaveis que foram recentemente declaradas ou para arguments formais para qual não existem argumentos atualmente.
+
 Ex.
 ```javascript
 let variavel
@@ -73,6 +85,15 @@ Ex.
 var frutas = ["maçã", "banana", "laranja"];
 var numeros = [1, 2, 3, 4, 5];
 ```
+
+crie uma variavel que possa conter sttring e numeros inteiros
+
+
+```javascript
+var frutas = ["maria", "joao", "helena"];
+var numeros = [1, 2, 3, 4];
+```
+
 ## Objeto
 
 O tipo de dado Object em JavaScript é usado para armazenar coleções de valores. Um objeto é uma estrutura de dados composta por um conjunto de propriedades, onde cada propriedade possui um nome e um valor associado. As propriedades podem ser acessadas utilizando a sintaxe de ponto ou a sintaxe de colchetes.
@@ -83,5 +104,16 @@ var pessoa = {
     nome: "Maria",
     idade: 25,
     cidade: "Lisboa"
+};
+```
+
+crie uma variavel que contenha a raça de um cachorro sua idade e o nome de seu dono
+
+
+```javascript
+var pet = {
+    nomecão : "Maria",
+    idade: 25,
+    dono: "Lisboa"
 };
 ```
